@@ -1,6 +1,6 @@
 .DS_Store
 notebooks/.ipynb_checkpoints
-data/*/*/*.fits
 data/*/*/*.asdf
 data/*/*/*.db
 data/*/*/*.tar.gz
+data/dryrun_01/simulated_imgs/*.fits
