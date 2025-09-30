@@ -10,6 +10,7 @@ The files are:
 - Input source catalog for the cutout (CSV file)
 - Sample of pivot light curves from simulations (FITS files)
 - Sample of extracted light curves from simulations (FITS files)
+- PRF model files (FITS files)
 
 ## Installation instructions
 
