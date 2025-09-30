@@ -4,9 +4,9 @@ version = "0.1.0"
 description = "Repository with notebooks and tutorials for TRExS F2F meeting in Columbus, OH."
 authors = [
     {name="Jorge Martinez-Palomera", email="jorgemarpa@ug.uchile.cl"},
-    {name="Robert Wilson ", email=""}
-    {name="Kelsey Hoffman", email=""}
-    {name="Jason Rowe", email=""}
+    {name="Robert Wilson ", email=""},
+    {name="Kelsey Hoffman", email=""},
+    {name="Jason Rowe", email=""},
 ]
 readme = "README.md"
 
@@ -16,6 +16,9 @@ dependencies = [
 "roman-cuts>=0.3.0",
 "jupyterlab>=4.4.0",
 ]
+
+[project.urls]
+Repository = "https://github.com/robertfwilson/TRExS_F2F_Meeting_Oct_2025.git"
 
 [build-system]
 requires = ["setuptools>=61.0", "wheel"]
