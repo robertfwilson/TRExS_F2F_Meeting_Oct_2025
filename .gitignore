@@ -1,0 +1,6 @@
+.DS_Store
+notebooks/.ipynb_checkpoints
+data/*/*/*.fits
+data/*/*/*.asdf
+data/*/*/*.db
+data/*/*/*.tar.gz
