@@ -1,5 +1,15 @@
 # TRExS_F2F_Meeting_Oct_2025
 
+## Download Files
+
+To run most the notebooks in this repository you'll need to download some files from the
+cloud as instructed in the email sent to the workshop participants.
+The files are:
+
+- Cutout of the simulated Roman field (ASDF file)
+- Input source catalog for the cutout (CSV file)
+- Sample of pivot light curves from simulations (FITS files)
+- Sample of extracted light curves from simulations (FITS files)
 
 ## Installation instructions
 
