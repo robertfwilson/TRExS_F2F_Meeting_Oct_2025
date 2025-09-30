@@ -1,0 +1,22 @@
+[project]
+name = "trexs-f2f-meeting-oct-2025"
+version = "0.1.0"
+description = "Repository with notebooks and tutorials for TRExS F2F meeting in Columbus, OH."
+authors = [
+    {name="Jorge Martinez-Palomera", email="jorgemarpa@ug.uchile.cl"},
+    {name="Robert Wilson ", email=""}
+    {name="Kelsey Hoffman", email=""}
+    {name="Jason Rowe", email=""}
+]
+readme = "README.md"
+
+dependencies = [
+"python^3.10",
+"roman-lcs>=0.4.0",
+"roman-cuts>=0.3.0",
+"jupyterlab>=4.4.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
