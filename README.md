@@ -10,10 +10,9 @@ installed in your system, use the `conda` command to create a new environment, a
 and install the dependencies. In your terminal, navigate to to this repo folder and run:
 
 ```bash
-conda create -n trexs python=3.10
+conda env create -f environment.yml
 conda activate trexs
-pip install .
-jupyter lab
+jupyter-lab
 ```
 
 This will open a JupyterLab server with the new environment ready to run the notebooks.
