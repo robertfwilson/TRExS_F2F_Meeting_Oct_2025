@@ -7,10 +7,10 @@ cloud as instructed in the email sent to the workshop participants.
 The files are:
 
 - Cutout of the simulated Roman field (ASDF file)
-- Input source catalog for the cutout (CSV file)
+- Input source catalog for the cutout ([CSV file](data/dryrun_01/catalogs/TRExS_dryrun_01_MASTER_input_catalog_v1.1_cutout.csv))
 - Sample of pivot light curves from simulations (FITS files)
 - Sample of extracted light curves from simulations (FITS files)
-- PRF model files (FITS files)
+- PRF model files ([FITS files](data/dryrun_01/prf_models))
 
 ## Installation instructions
 
