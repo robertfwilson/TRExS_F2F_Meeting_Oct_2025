@@ -10,7 +10,8 @@ necessary to run the tutorials.
 ## Download Files
 
 To run most the notebooks in this repository you'll need to download some files from the
-cloud as instructed in the email sent to the workshop participants.
+cloud as instructed in the email sent to the workshop participants. Once you download 
+the files, move them to the folders listed below.
 The files are:
 
 - Cutout of the simulated Roman field ([ASDF file](data/dryrun_01/simulated_imgs/))
