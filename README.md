@@ -42,6 +42,10 @@ If you have multiple conda environments in your system with associated Jupyter k
 
 The notebook tutorials in this repo are this:
 
+### Data Description
+
+- [How to open data](data/data_examples.ipynb) with *pandas*, *asdf, and *fits*
+
 ### Image Level
 
 - [Image cutout](lc_extraction/image_cutout.ipynb) with *roman-cuts*.
