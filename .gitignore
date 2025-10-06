@@ -7,3 +7,5 @@ data/dryrun_01/simulated_imgs/*.fits
 notebooks/*.asdf
 .vscode/settings.json
 lc_extraction/.ipynb_checkpoints
+data/.ipynb_checkpoints
+transit_search/.ipynb_checkpoints
