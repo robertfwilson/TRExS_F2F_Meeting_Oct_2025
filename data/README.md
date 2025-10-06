@@ -4,9 +4,9 @@ Here you'll find a short description of the files in this folder. Files are loca
 the `dryrun_01` folder and are organized in different directories according to data types or origin.
 
 ## Catalogs
-- `dryrun_01/catalogs/TRExS_dryrun_01_MASTER_input_catalog_v1.1_cutout.csv`: Has the summary input catalog used to simulate the 256x256 image cutout. It contain source ids, positions, source type, and filter brightnesses. It has 12,570 rows.
+- `dryrun_01/catalogs/TRExS_dryrun_01_MASTER_input_catalog_v1.1_cutout.csv`: Has the summary input catalog used to simulate the 256x256 image cutout. It contain source ids, positions, source type, and filter brightnesses. It has 20,858 rows.
 - `dryrun_01/catalogs/TRExS_dryrun_01_MASTER_input_catalog_v1.1.db`: Is the complete summary input catalog for the 4088x4088 pixel images. It has 4,973,188 rows.
-- : It has the stellar parameters of the sources in the master input catalog for the image cutout. It has 12,570 rows.
+- `dryrun_01/catalogs/TRExS_dryrun_01_catalog_planet_sample_injected_parameters_v1.2_cutout.csv`: It has the stellar parameters of sources with transits in the image cutout. It has 337 rows.
 
 ## Images
 - `dryrun_01/simulated_imgs/rimtimsim_WFI_lvl02_{FILTER}_SCA02_field03_rampfitted_r1920c1920_256x256_sim.asdf`: Are the ASDF files with the time-stack of the image cutout for the three filters `F087`, `F146`, and `F213`. The simulation used the master input catalog cutout. The file shapes are `F087 = [131 ,256, 256]`,  `F146 = [6595 ,256, 256]`, and `F213 = [132 ,256, 256]`.

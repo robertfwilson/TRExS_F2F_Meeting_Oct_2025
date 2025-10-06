@@ -18,7 +18,7 @@ The files are:
 - Sample of extracted light curves from simulations ([FITS files](data/dryrun_01/lcs_extracted/))
 - PRF model files ([FITS files](data/dryrun_01/prf_models))
 
-A full description of the files is [here](/data/README.md).
+A full description of the files is [here](/data/README.md) and a notebook tutorial on how to open these files is [here](data/data_examples.ipynb).
 
 ## Installation Instructions
 
