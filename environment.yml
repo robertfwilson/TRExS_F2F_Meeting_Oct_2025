@@ -2,8 +2,24 @@ name: trexs
 channels:
   - conda-forge
 dependencies:
+  - python=3.11
   - jupyterlab>=4.4.0
+  - ipykernel
+  - ipywidgets
+  - numpy<= 1.26.4
+  - numba
+  - numba-cuda
+  - scipy
+  - pandas
+  - astropy
   - pip>=24.2
   - pip:
     - roman-lcs>=0.4.1
     - roman-cuts>=0.3.0
+    - exovetter
+    - lightkurve
+    - exotic_ld
+    - astroquery
+    - tqdm
+    - lcviz
+    - git+https://github.com/mkunimoto/LEO-vetter.git#egg=leo_vetter
