@@ -6,3 +6,4 @@ data/*/*/*.tar.gz
 data/dryrun_01/simulated_imgs/*.fits
 notebooks/*.asdf
 .vscode/settings.json
+lc_extraction/.ipynb_checkpoints
