@@ -31,6 +31,7 @@ the dependencies. In your terminal, navigate to this repo folder and run:
 ```bash
 conda env create -f environment.yml
 conda activate trexs
+python -m ipykernel install --user --name=trexs --display-name "TRExS"
 jupyter-lab
 ```
 
