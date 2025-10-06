@@ -5,13 +5,11 @@ This repository contains the Jupyter notebooks tutorials we will use during the 
 Here you will find instructions on how to install the Python requirements and files 
 necessary to run the tutorials. 
 
-[Here](data/TRExS_F2F_Meeting_schedule.pdf) is a draft of the meeting schedule.
+[Here](data/TRExS_F2F_Meeting_schedule_v2.pdf) is a draft of the meeting schedule.
 
 ## Download Files
 
-To run most the notebooks in this repository you'll need to download some files from the
-cloud as instructed in the email sent to the workshop participants. Once you download 
-the files, move them to the folders listed below.
+To run most the notebooks in this repository you'll need to download some files from this [GDrive](https://drive.google.com/drive/folders/1HeP7ZsO2V5PnyylGd3S_VhBmeNKXJzwZ?usp=sharing). Once you download the files, move them to the folders listed below.
 The files are:
 
 - Cutout of the simulated Roman field ([ASDF file](data/dryrun_01/simulated_imgs/))
@@ -19,6 +17,8 @@ The files are:
 - Sample of simulated pivot light curves ([FITS files](data/dryrun_01/lcs_pivot/))
 - Sample of extracted light curves from simulations ([FITS files](data/dryrun_01/lcs_extracted/))
 - PRF model files ([FITS files](data/dryrun_01/prf_models))
+
+A full description of the files is [here](/data/README.md).
 
 ## Installation Instructions
 
@@ -43,13 +43,13 @@ The notebook tutorials in this repo are this:
 
 ### Image Level
 
-- [Image cutout](notebooks/image_cutout.ipynb) with *roman-cuts*.
+- [Image cutout](lc_extraction/image_cutout.ipynb) with *roman-cuts*.
 
 ### Light Curve Extraction
 
-- [Building a PRF model](notebooks/lc_extraction_build_prf.ipynb) with *roman-lcs*.
-- [Extracting PRF photometry](notebooks/lc_extraction_prf_phot.ipynb) with *roman-lcs*.
+- [Building a PRF model](lc_extraction/lc_extraction_build_prf.ipynb) with *roman-lcs*.
+- [Extracting PRF photometry](lc_extraction/lc_extraction_prf_phot.ipynb) with *roman-lcs*.
 
 ### Transit Search and Vetting
 
-- Transit search with BLS
+- [Transit search and vetting](transit_search/search_model_fluxvetting.ipynb) with BLS and Leo vetter.
