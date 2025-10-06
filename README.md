@@ -36,7 +36,7 @@ jupyter-lab
 ```
 
 This will open a JupyterLab server with the new environment ready to run the notebooks.
-If you have multiple conda environments in your system with associated Jupyter kernels, make sure to select the base kernel (`Python 3 (ipykernel)`) in the notebooks to use your new environment.
+If you have multiple conda environments in your system with associated Jupyter kernels, make sure to select the kernel (`TRExS`) in the notebooks to use your new environment.
 
 ## Tutorials Index
 
