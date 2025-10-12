@@ -5,7 +5,7 @@ This repository contains the Jupyter notebooks tutorials we will use during the 
 Here you will find instructions on how to install the Python requirements and files 
 necessary to run the tutorials. 
 
-[Here](data/TRExS_F2F_Meeting_schedule_v2.pdf) is a draft of the meeting schedule.
+[Here](data/TRExS_F2F_Meeting_schedule_v3.pdf) is the meeting schedule.
 
 ## Download Files
 
